@@ -46,7 +46,7 @@ public class bookArrayAdapter extends BaseAdapter {
 
         TextView title = view.findViewById(R.id.title);
         TextView author = view.findViewById(R.id.author);
-        TextView owner = view.findViewById(R.id.ownership_status);
+        //TextView owner = view.findViewById(R.id.ownership_status);
 
         title.setText(String.valueOf(book.getTitle()));
         author.setText(String.valueOf(book.getAuthor()));

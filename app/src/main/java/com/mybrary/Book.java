@@ -8,6 +8,14 @@ public class Book {
     private int ownerID;
     private int borrowID;
 
+    public Book() {
+        title = "Default";
+        author = "Default";
+        isbn = "Default";
+        ownerID = 11;
+        borrowID = 11;
+    }
+
     public Book(String title, String author, String isbn, int ownerID, int borrowID) {
         this.title = title;
         this.author = author;
